@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 body a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .flicker-4 {
 	-webkit-animation: flicker-4 4s linear infinite both;
@@ -172,6 +172,7 @@ nav {
     padding-top: 22px;
     font-size: 1.2em;
 }
+/*===================== INDEX PAGE =====================*/
 .nav-space {
     padding-bottom: 45px;
 }
@@ -207,4 +208,28 @@ nav {
 
 footer {
     font-size: 2em;
+}
+
+
+/*===================== PROJECTS PAGE =====================*/
+
+.project-container {
+  padding-top: 60px; padding-bottom: 30px;
+  padding-left: 45px; padding-right: 45px;
+}
+.project-description {
+  padding-left: 35px;
+}
+.view-buttons {
+  font-family: 'Inconsolata', monospace;
+  padding-top: 32px;
+  text-align: center;
+}
+.view-buttons a {
+  background-color: #E290F8; color: snow;
+  -webkit-box-shadow: 2px 3px 0px 0px rgba(144,216,245,1);
+  -moz-box-shadow: 2px 3px 0px 0px rgba(144,216,245,1);
+  box-shadow: 2px 3px 0px 0px rgba(144,216,245,1);
+  padding: 10px;
+  font-size: 1.3em;
 }
