@@ -210,7 +210,12 @@ footer {
     font-size: 2em;
 }
 
+/*===================== CONTACT PAGE =====================*/
 
+.contact-container {
+  padding-top: 60px; padding-bottom: 30px;
+  padding-left: 45px; padding-right: 45px;
+}
 /*===================== PROJECTS PAGE =====================*/
 
 .project-container {
@@ -225,11 +230,23 @@ footer {
   padding-top: 32px;
   text-align: center;
 }
-.view-buttons a {
+.view-link {
   background-color: #E290F8; color: snow;
   -webkit-box-shadow: 2px 3px 0px 0px rgba(144,216,245,1);
   -moz-box-shadow: 2px 3px 0px 0px rgba(144,216,245,1);
   box-shadow: 2px 3px 0px 0px rgba(144,216,245,1);
   padding: 10px;
   font-size: 1.3em;
+}
+.disabled-link {
+  background-color: #939393; color: #151515;
+  -webkit-box-shadow: 3px 3px 0px 0px rgba(84,84,84,1);
+  -moz-box-shadow: 3px 3px 0px 0px rgba(84,84,84,1);
+  box-shadow: 3px 3px 0px 0px rgba(84,84,84,1);
+  padding: 10px;
+  font-size: 1.3em;
+}
+.disabled-link:hover {
+  cursor: not-allowed;
+  color: #151515;
 }
