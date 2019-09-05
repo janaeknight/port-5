@@ -224,6 +224,7 @@ footer {
 }
 .project-description {
   padding-left: 35px;
+  list-style: square;
 }
 .view-buttons {
   font-family: 'Inconsolata', monospace;
@@ -238,15 +239,7 @@ footer {
   padding: 10px;
   font-size: 1.3em;
 }
-.disabled-link {
-  background-color: #939393; color: #151515;
-  -webkit-box-shadow: 3px 3px 0px 0px rgba(84,84,84,1);
-  -moz-box-shadow: 3px 3px 0px 0px rgba(84,84,84,1);
-  box-shadow: 3px 3px 0px 0px rgba(84,84,84,1);
-  padding: 10px;
-  font-size: 1.3em;
-}
 .disabled-link:hover {
   cursor: not-allowed;
-  color: #151515;
+  color: snow;
 }
